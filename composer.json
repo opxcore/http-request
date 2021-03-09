@@ -1,0 +1,35 @@
+{
+  "name": "opxcore/request-http",
+  "description": "The OpxCore request-http.",
+  "keywords": [
+    "opxcore",
+    "request",
+    "http"
+  ],
+  "license": "MIT",
+  "type": "library",
+  "homepage": "https://opxcore.com",
+  "support": {
+    "issues": "https://github.com/opxcore/request-http/issues",
+    "source": "https://github.com/opxcore/request-http"
+  },
+  "authors": [
+    {
+      "name": "Lozovoy Vyacheslav",
+      "email": "opxcore@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4",
+    "opxcore/app-interface": "^1.1.1",
+    "opxcore/string": "dev-main",
+    "opxcore/request-interface": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "OpxCore\\Request\\": "src/"
+    }
+  },
+  "prefer-stable": true,
+  "minimum-stability": "dev"
+}
