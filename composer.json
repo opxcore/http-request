@@ -1,6 +1,6 @@
 {
-  "name": "opxcore/request-http",
-  "description": "The OpxCore request-http.",
+  "name": "opxcore/request",
+  "description": "The OpxCore request.",
   "keywords": [
     "opxcore",
     "request",
@@ -10,8 +10,8 @@
   "type": "library",
   "homepage": "https://opxcore.com",
   "support": {
-    "issues": "https://github.com/opxcore/request-http/issues",
-    "source": "https://github.com/opxcore/request-http"
+    "issues": "https://github.com/opxcore/request/issues",
+    "source": "https://github.com/opxcore/request"
   },
   "authors": [
     {
